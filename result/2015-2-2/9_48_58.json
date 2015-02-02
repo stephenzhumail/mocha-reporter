@@ -1,0 +1,153 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 7,
+    "passes": 5,
+    "pending": 0,
+    "failures": 2,
+    "start": "2015-02-02T01:48:17.053Z",
+    "end": "2015-02-02T01:48:58.384Z",
+    "duration": 41331
+  },
+  "tests": [
+    {
+      "title": "测试脚本开始",
+      "fullTitle": "ios simple 测试脚本开始",
+      "duration": 0,
+      "err": {}
+    },
+    {
+      "title": "关闭弹出框",
+      "fullTitle": "ios simple 关闭弹出框",
+      "duration": 3,
+      "err": {}
+    },
+    {
+      "title": "滑动引导页2",
+      "fullTitle": "ios simple 滑动引导页2",
+      "duration": 5,
+      "err": {}
+    },
+    {
+      "title": "滑动引导页3",
+      "fullTitle": "ios simple 滑动引导页3",
+      "duration": 5,
+      "err": {}
+    },
+    {
+      "title": "进入主界面",
+      "fullTitle": "ios simple 进入主界面",
+      "duration": 418,
+      "err": {}
+    },
+    {
+      "title": "进入主界面",
+      "fullTitle": "ios simple 进入主界面",
+      "duration": 2585,
+      "err": {
+        "jsonwire-error": {
+          "status": 13,
+          "summary": "UnknownError",
+          "detail": "An unknown server-side error occurred while processing the command."
+        },
+        "status": 13,
+        "cause": {
+          "status": 13,
+          "value": {
+            "message": "An unknown server-side error occurred while processing the command.",
+            "origValue": "elementId 1 could not be tapped"
+          },
+          "sessionId": "70e9cdf2-3e08-4143-99c7-30c80c05fbaa"
+        },
+        "message": "[element.click()] Error response status: 13, UnknownError - An unknown server-side error occurred while processing the command. Selenium error: An unknown server-side error occurred while processing the command.",
+        "stack": "Error: [element.click()] Error response status: 13, UnknownError - An unknown server-side error occurred while processing the command. Selenium error: An unknown server-side error occurred while processing the command.\n    at exports.newError (/Users/stephen/node_modules/wd/lib/utils.js:139:13)\n    at /Users/stephen/node_modules/wd/lib/callbacks.js:33:23\n    at /Users/stephen/node_modules/wd/lib/webdriver.js:169:5\n    at Request._callback (/Users/stephen/node_modules/wd/lib/http-utils.js:84:7)\n    at Request.self.callback (/Users/stephen/node_modules/wd/node_modules/request/request.js:236:22)\n    at Request.emit (events.js:98:17)\n    at Request.<anonymous> (/Users/stephen/node_modules/wd/node_modules/request/request.js:1142:14)\n    at Request.emit (events.js:117:20)\n    at IncomingMessage.<anonymous> (/Users/stephen/node_modules/wd/node_modules/request/request.js:1096:12)\n    at IncomingMessage.emit (events.js:117:20)"
+      }
+    },
+    {
+      "title": "点击洗车列表",
+      "fullTitle": "ios simple 点击洗车列表",
+      "duration": 5,
+      "err": {
+        "stack": "TypeError: Cannot call method 'elementsByClassName' of undefined\n    at Context.<anonymous> (/Users/stephen/Desktop/mocha_web-master/test/ios-nodejs.js:119:14)\n    at callFn (/Users/stephen/Desktop/mocha_web-master/node_modules/mocha/lib/runnable.js:251:21)\n    at Test.Runnable.run (/Users/stephen/Desktop/mocha_web-master/node_modules/mocha/lib/runnable.js:244:7)\n    at Runner.runTest (/Users/stephen/Desktop/mocha_web-master/node_modules/mocha/lib/runner.js:374:10)\n    at /Users/stephen/Desktop/mocha_web-master/node_modules/mocha/lib/runner.js:452:12\n    at next (/Users/stephen/Desktop/mocha_web-master/node_modules/mocha/lib/runner.js:299:14)\n    at /Users/stephen/Desktop/mocha_web-master/node_modules/mocha/lib/runner.js:309:7\n    at next (/Users/stephen/Desktop/mocha_web-master/node_modules/mocha/lib/runner.js:248:23)\n    at Object._onImmediate (/Users/stephen/Desktop/mocha_web-master/node_modules/mocha/lib/runner.js:276:5)\n    at processImmediate [as _immediateCallback] (timers.js:345:15)",
+        "arguments": [
+          "elementsByClassName",
+          null
+        ],
+        "type": "non_object_property_call",
+        "message": "Cannot call method 'elementsByClassName' of undefined"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "进入主界面",
+      "fullTitle": "ios simple 进入主界面",
+      "duration": 2585,
+      "err": {
+        "jsonwire-error": {
+          "status": 13,
+          "summary": "UnknownError",
+          "detail": "An unknown server-side error occurred while processing the command."
+        },
+        "status": 13,
+        "cause": {
+          "status": 13,
+          "value": {
+            "message": "An unknown server-side error occurred while processing the command.",
+            "origValue": "elementId 1 could not be tapped"
+          },
+          "sessionId": "70e9cdf2-3e08-4143-99c7-30c80c05fbaa"
+        },
+        "message": "[element.click()] Error response status: 13, UnknownError - An unknown server-side error occurred while processing the command. Selenium error: An unknown server-side error occurred while processing the command.",
+        "stack": "Error: [element.click()] Error response status: 13, UnknownError - An unknown server-side error occurred while processing the command. Selenium error: An unknown server-side error occurred while processing the command.\n    at exports.newError (/Users/stephen/node_modules/wd/lib/utils.js:139:13)\n    at /Users/stephen/node_modules/wd/lib/callbacks.js:33:23\n    at /Users/stephen/node_modules/wd/lib/webdriver.js:169:5\n    at Request._callback (/Users/stephen/node_modules/wd/lib/http-utils.js:84:7)\n    at Request.self.callback (/Users/stephen/node_modules/wd/node_modules/request/request.js:236:22)\n    at Request.emit (events.js:98:17)\n    at Request.<anonymous> (/Users/stephen/node_modules/wd/node_modules/request/request.js:1142:14)\n    at Request.emit (events.js:117:20)\n    at IncomingMessage.<anonymous> (/Users/stephen/node_modules/wd/node_modules/request/request.js:1096:12)\n    at IncomingMessage.emit (events.js:117:20)"
+      }
+    },
+    {
+      "title": "点击洗车列表",
+      "fullTitle": "ios simple 点击洗车列表",
+      "duration": 5,
+      "err": {
+        "stack": "TypeError: Cannot call method 'elementsByClassName' of undefined\n    at Context.<anonymous> (/Users/stephen/Desktop/mocha_web-master/test/ios-nodejs.js:119:14)\n    at callFn (/Users/stephen/Desktop/mocha_web-master/node_modules/mocha/lib/runnable.js:251:21)\n    at Test.Runnable.run (/Users/stephen/Desktop/mocha_web-master/node_modules/mocha/lib/runnable.js:244:7)\n    at Runner.runTest (/Users/stephen/Desktop/mocha_web-master/node_modules/mocha/lib/runner.js:374:10)\n    at /Users/stephen/Desktop/mocha_web-master/node_modules/mocha/lib/runner.js:452:12\n    at next (/Users/stephen/Desktop/mocha_web-master/node_modules/mocha/lib/runner.js:299:14)\n    at /Users/stephen/Desktop/mocha_web-master/node_modules/mocha/lib/runner.js:309:7\n    at next (/Users/stephen/Desktop/mocha_web-master/node_modules/mocha/lib/runner.js:248:23)\n    at Object._onImmediate (/Users/stephen/Desktop/mocha_web-master/node_modules/mocha/lib/runner.js:276:5)\n    at processImmediate [as _immediateCallback] (timers.js:345:15)",
+        "arguments": [
+          "elementsByClassName",
+          null
+        ],
+        "type": "non_object_property_call",
+        "message": "Cannot call method 'elementsByClassName' of undefined"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "测试脚本开始",
+      "fullTitle": "ios simple 测试脚本开始",
+      "duration": 0,
+      "err": {}
+    },
+    {
+      "title": "关闭弹出框",
+      "fullTitle": "ios simple 关闭弹出框",
+      "duration": 3,
+      "err": {}
+    },
+    {
+      "title": "滑动引导页2",
+      "fullTitle": "ios simple 滑动引导页2",
+      "duration": 5,
+      "err": {}
+    },
+    {
+      "title": "滑动引导页3",
+      "fullTitle": "ios simple 滑动引导页3",
+      "duration": 5,
+      "err": {}
+    },
+    {
+      "title": "进入主界面",
+      "fullTitle": "ios simple 进入主界面",
+      "duration": 418,
+      "err": {}
+    }
+  ]
+}

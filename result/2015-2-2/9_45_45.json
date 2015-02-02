@@ -1,0 +1,44 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 0,
+    "passes": 0,
+    "pending": 0,
+    "failures": 2,
+    "start": "2015-02-02T01:45:45.588Z",
+    "end": "2015-02-02T01:45:45.683Z",
+    "duration": 95
+  },
+  "tests": [],
+  "pending": [],
+  "failures": [
+    {
+      "title": "\"before all\" hook",
+      "fullTitle": "ios simple \"before all\" hook",
+      "duration": 69,
+      "err": {
+        "stack": "Error: [init({\"browserName\":\"\",\"appium-version\":\"1.3\",\"platformName\":\"iOS\",\"platformVersion\":\"8.1\",\"deviceName\":\"iPhone Simulator\"})] The environment you requested was unavailable.\n    at /Users/stephen/node_modules/wd/lib/webdriver.js:124:15\n    at Request._callback (/Users/stephen/node_modules/wd/lib/http-utils.js:84:7)\n    at Request.self.callback (/Users/stephen/node_modules/wd/node_modules/request/request.js:236:22)\n    at Request.emit (events.js:98:17)\n    at Request.<anonymous> (/Users/stephen/node_modules/wd/node_modules/request/request.js:1142:14)\n    at Request.emit (events.js:117:20)\n    at IncomingMessage.<anonymous> (/Users/stephen/node_modules/wd/node_modules/request/request.js:1096:12)\n    at IncomingMessage.emit (events.js:117:20)\n    at _stream_readable.js:943:16\n    at process._tickCallback (node.js:419:13)",
+        "message": "[init({\"browserName\":\"\",\"appium-version\":\"1.3\",\"platformName\":\"iOS\",\"platformVersion\":\"8.1\",\"deviceName\":\"iPhone Simulator\"})] The environment you requested was unavailable.",
+        "data": "{\"status\":33,\"value\":{\"message\":\"A new session could not be created. (Original error: Please provide the 'app' capability or start appium with the --app argument. Alternatively, you may provide the 'bundleId' and 'udid' capabilities for an app under test on a real device.)\",\"origValue\":\"Please provide the 'app' capability or start appium with the --app argument. Alternatively, you may provide the 'bundleId' and 'udid' capabilities for an app under test on a real device.\"},\"sessionId\":null}"
+      }
+    },
+    {
+      "title": "\"after all\" hook",
+      "fullTitle": "ios simple \"after all\" hook",
+      "duration": 24,
+      "err": {
+        "stack": "Error: [quit()] Error response status: 1 Selenium error: undefined status object\n    at exports.newError (/Users/stephen/node_modules/wd/lib/utils.js:139:13)\n    at null.<anonymous> (/Users/stephen/node_modules/wd/lib/callbacks.js:33:23)\n    at cb (/Users/stephen/node_modules/wd/lib/webdriver.js:155:22)\n    at /Users/stephen/node_modules/wd/lib/webdriver.js:169:5\n    at Request._callback (/Users/stephen/node_modules/wd/lib/http-utils.js:84:7)\n    at Request.self.callback (/Users/stephen/node_modules/wd/node_modules/request/request.js:236:22)\n    at Request.emit (events.js:98:17)\n    at Request.<anonymous> (/Users/stephen/node_modules/wd/node_modules/request/request.js:1142:14)\n    at Request.emit (events.js:117:20)\n    at IncomingMessage.<anonymous> (/Users/stephen/node_modules/wd/node_modules/request/request.js:1096:12)",
+        "message": "[quit()] Error response status: 1 Selenium error: undefined status object",
+        "status": 1,
+        "cause": {
+          "status": 1,
+          "value": {
+            "message": "undefined status object"
+          },
+          "sessionId": null
+        }
+      }
+    }
+  ],
+  "passes": []
+}
